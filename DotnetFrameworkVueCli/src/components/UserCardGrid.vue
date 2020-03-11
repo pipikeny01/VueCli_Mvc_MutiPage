@@ -16,12 +16,15 @@
 </template>
 <script>
     import axios from 'axios';
-
+    import userCard from "../components/UserCard"
     export default {
         data: function () {
             return {
                 users: [],
             };
+        },
+        components:{
+            userCard
         },
         methods: {
             async fetchUsers() {

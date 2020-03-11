@@ -1,14 +1,12 @@
-//var fs = require('fs')
-//var appBasePath = './Scripts/app/'
+var fs = require("fs");
+var appBasePath = "./src/Views/";
 
-// var jsEntries = {}
-// // We search for index.js files inside basePath folder and make those as entries
-// fs.readdirSync(appBasePath).forEach(function (name) {
-//     var indexFile = appBasePath + name + '/main.js'
-//     if (fs.existsSync(indexFile)) {
-//         jsEntries[name] = indexFile
-//     }
-// })
+var jsEntries = {};
+
+generator(appBasePath);
+
+jsEntries["index"] = "./src/main.js";
+
 module.exports = {
   outputDir: "content/dist",
   filenameHashing: false,
@@ -25,14 +23,28 @@ module.exports = {
   chainWebpack(config) {
     config.output.filename("js/[name].js"); //watch mode output
   },
-  pages: {
-    index: {
-      // entry for the page
-      entry: "src/main.js",
-    },
-    vue: {
-        // entry for the page
-        entry: "src/View/Vue/main.js",
-      }
-  }
+  pages: jsEntries
+
+  //   pages: {
+  //     index: {
+  //       entry: "src/main.js",
+  //     },
+  //     vue: {
+  //         entry: "src/View/Vue/main.js",
+  //       }
+  //   }
 };
+
+function generator(basePath) {
+    fs.readdirSync(basePath).forEach(function(name) {
+        if (!fs.lstatSync(basePath + name).isFile()) {
+          var indexFile = basePath + name + "/main.js";
+          if (fs.existsSync(indexFile)) {
+            jsEntries[name] = { entry: indexFile };
+          }
+
+          generator(basePath + name + "/");
+        }
+      
+      });
+}

@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "0ffb930ac9baf88673cf";
+/******/ 	var hotCurrentHash = "8556fc1573806553bae1";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -258,7 +258,7 @@
 /******/ 				};
 /******/ 			});
 /******/ 			hotUpdate = {};
-/******/ 			var chunkId = "vue";
+/******/ 			var chunkId = "Vue";
 /******/ 			// eslint-disable-next-line no-lone-blocks
 /******/ 			{
 /******/ 				/*globals chunkId */
@@ -2764,15 +2764,15 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
-/***/ "./src/View/Vue/main.js":
-/*!******************************!*\
-  !*** ./src/View/Vue/main.js ***!
-  \******************************/
+/***/ "./src/Views/Vue/main.js":
+/*!*******************************!*\
+  !*** ./src/Views/Vue/main.js ***!
+  \*******************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_array_iterator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/core-js/modules/es6.array.iterator.js */ \"./node_modules/core-js/modules/es6.array.iterator.js\");\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_array_iterator_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_array_iterator_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_promise_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/core-js/modules/es6.promise.js */ \"./node_modules/core-js/modules/es6.promise.js\");\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_promise_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_promise_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_object_assign_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/core-js/modules/es6.object.assign.js */ \"./node_modules/core-js/modules/es6.object.assign.js\");\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_object_assign_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_object_assign_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es7_promise_finally_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/core-js/modules/es7.promise.finally.js */ \"./node_modules/core-js/modules/es7.promise.finally.js\");\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es7_promise_finally_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es7_promise_finally_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.esm.js\");\n\n\n\n\n //Vue.config.productionTip = false\n\nvue__WEBPACK_IMPORTED_MODULE_4__[\"default\"].config.devtools = true;\nvue__WEBPACK_IMPORTED_MODULE_4__[\"default\"].component('users-grid', __webpack_require__(/*! ../../components/UsersGrid.vue */ \"./src/components/UsersGrid.vue\").default);\nwindow.Vue = vue__WEBPACK_IMPORTED_MODULE_4__[\"default\"];//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvVmlldy9WdWUvbWFpbi5qcy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9WaWV3L1Z1ZS9tYWluLmpzP2EyYTciXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFZ1ZSBmcm9tICd2dWUnXHJcbi8vVnVlLmNvbmZpZy5wcm9kdWN0aW9uVGlwID0gZmFsc2VcclxuVnVlLmNvbmZpZy5kZXZ0b29scyA9IHRydWVcclxuVnVlLmNvbXBvbmVudCgndXNlcnMtZ3JpZCcsIHJlcXVpcmUoJy4uLy4uL2NvbXBvbmVudHMvVXNlcnNHcmlkLnZ1ZScpLmRlZmF1bHQpO1xyXG5cclxud2luZG93LlZ1ZSA9IFZ1ZTtcclxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7OztBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBRUEiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/View/Vue/main.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_array_iterator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/core-js/modules/es6.array.iterator.js */ \"./node_modules/core-js/modules/es6.array.iterator.js\");\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_array_iterator_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_array_iterator_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_promise_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/core-js/modules/es6.promise.js */ \"./node_modules/core-js/modules/es6.promise.js\");\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_promise_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_promise_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_object_assign_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/core-js/modules/es6.object.assign.js */ \"./node_modules/core-js/modules/es6.object.assign.js\");\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_object_assign_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es6_object_assign_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es7_promise_finally_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/core-js/modules/es7.promise.finally.js */ \"./node_modules/core-js/modules/es7.promise.finally.js\");\n/* harmony import */ var D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es7_promise_finally_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(D_Users_admin_source_repos_vue_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_master_DotnetFrameworkVueCli_node_modules_core_js_modules_es7_promise_finally_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.esm.js\");\n\n\n\n\n //Vue.config.productionTip = false\n\nvue__WEBPACK_IMPORTED_MODULE_4__[\"default\"].component('users-grid', __webpack_require__(/*! ../../components/UsersGrid.vue */ \"./src/components/UsersGrid.vue\").default);\nwindow.Vue = vue__WEBPACK_IMPORTED_MODULE_4__[\"default\"];//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvVmlld3MvVnVlL21haW4uanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvVmlld3MvVnVlL21haW4uanM/ZmI3OCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgVnVlIGZyb20gJ3Z1ZSdcclxuLy9WdWUuY29uZmlnLnByb2R1Y3Rpb25UaXAgPSBmYWxzZVxyXG5cclxuVnVlLmNvbXBvbmVudCgndXNlcnMtZ3JpZCcsIHJlcXVpcmUoJy4uLy4uL2NvbXBvbmVudHMvVXNlcnNHcmlkLnZ1ZScpLmRlZmF1bHQpO1xyXG5cclxud2luZG93LlZ1ZSA9IFZ1ZTtcclxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7OztBQUFBO0FBQ0E7QUFFQTtBQUVBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/Views/Vue/main.js\n");
 
 /***/ }),
 
@@ -2813,13 +2813,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /***/ }),
 
 /***/ 1:
-/*!************************************!*\
-  !*** multi ./src/View/Vue/main.js ***!
-  \************************************/
+/*!*************************************!*\
+  !*** multi ./src/Views/Vue/main.js ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Users\admin\source\repos\vue\DotnetFrameworkVueCli-master\DotnetFrameworkVueCli-master\DotnetFrameworkVueCli\src\View\Vue\main.js */"./src/View/Vue/main.js");
+module.exports = __webpack_require__(/*! D:\Users\admin\source\repos\vue\DotnetFrameworkVueCli-master\DotnetFrameworkVueCli-master\DotnetFrameworkVueCli\src\Views\Vue\main.js */"./src/Views/Vue/main.js");
 
 
 /***/ })

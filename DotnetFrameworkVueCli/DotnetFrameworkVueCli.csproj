@@ -158,6 +158,7 @@
     <Content Include="src\assets\logo.png" />
     <None Include="src\components\UserCard.vue" />
     <Content Include="src\main.js" />
+    <Content Include="src\Views\Vue\main.js" />
     <Content Include="vue.config.js" />
     <Content Include="vue.js" />
     <Content Include="Web.config" />
@@ -176,6 +177,7 @@
     <Content Include="Views\Home\Components.cshtml" />
     <Content Include="src\components\UsersGrid.vue" />
     <Content Include="src\components\UserCardGrid.vue" />
+    <Content Include="Views\Home\MyFirstView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

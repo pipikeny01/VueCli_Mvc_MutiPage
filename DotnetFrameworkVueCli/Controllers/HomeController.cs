@@ -22,5 +22,11 @@ namespace DotnetFrameworkVueCli.Controllers
         {
             return View();
         }
+
+        public ActionResult MyFirstView()
+        {
+            return View();
+        }
+
     }
 }
