@@ -135,6 +135,7 @@
     <Content Include="Content\dist\css\app.css" />
     <Content Include="Content\dist\favicon.ico" />
     <Content Include="Content\dist\index.html" />
+    <Content Include="Content\dist\js\JavaScript.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -158,6 +159,7 @@
     <None Include="src\components\UserCard.vue" />
     <Content Include="src\main.js" />
     <Content Include="vue.config.js" />
+    <Content Include="vue.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -177,7 +179,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\dist\js\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
