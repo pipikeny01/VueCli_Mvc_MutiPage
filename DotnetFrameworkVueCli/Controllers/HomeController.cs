@@ -25,6 +25,7 @@ namespace DotnetFrameworkVueCli.Controllers
 
         public ActionResult MyFirstView()
         {
+            ViewBag.Go = "";
             return View();
         }
 

@@ -360,3 +360,4 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/DotnetFrameworkVueCli/Content/dist
