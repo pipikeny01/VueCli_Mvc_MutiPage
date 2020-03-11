@@ -26,6 +26,7 @@
                     <li>@Html.ActionLink("jQuery Example", "Index", "Home")</li>
                     <li>@Html.ActionLink("Basic Vue Example", "Vue", "Home")</li>
                     <li>@Html.ActionLink("Components Example", "Components", "Home")</li>
+                    <li>@Html.ActionLink("MyFirstView", "MyFirstView", "Home")</li>
                 </ul>
             </div>
         </div>
@@ -43,12 +44,12 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
 
-    <script src="~/Content/dist/js/app.js"></script>
+    <script src="~/Content/dist/js/index.js"></script>
+@RenderSection("scripts", required: false)
 
     <script>
         new Vue({
         }).$mount('#app')
     </script>
-    @RenderSection("scripts", required: false)
 </body>
 </html>
