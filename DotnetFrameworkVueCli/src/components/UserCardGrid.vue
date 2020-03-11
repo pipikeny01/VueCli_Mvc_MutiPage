@@ -6,7 +6,7 @@
 
         <div class="container">
             <div class="row" v-if="users.length > 0">
-                <div class="col-md-3" v-for="user in users">
+                <div class="col-md-3" v-for="(user,index) in users" :key="index">
                     <user-card :user="user"></user-card>
                 </div>
             </div>
