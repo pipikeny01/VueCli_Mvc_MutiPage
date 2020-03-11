@@ -22,6 +22,9 @@ module.exports = {
       }
     }
   },
+  chainWebpack(config) {
+    config.output.filename("js/[name].js"); //watch mode output
+  },
   pages: {
     index: {
       // entry for the page
